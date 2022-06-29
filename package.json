@@ -4,7 +4,7 @@
   "description": "Training guides for the South Pacific Special Forces",
   "main": "index.js",
   "scripts": {
-    "css-compile": "sass scss:assets/css/",
+    "css-compile": "npx sass scss:assets/css/",
     "css-prefix": "npx postcss --replace assets/css/*.css --use autoprefixer --map",
     "css": "npm run css-compile && npm run css-prefix"
   },
